@@ -9,12 +9,15 @@ def print_list(my_list, before_after):
     print(f'My List {before_after} is {my_list} elements')
 
 def insertionSort(my_list):
-    n = len(my_list) 
+    n = len(my_list)  
+      
+    if n <= 1:
+        return  
  
     for i in range(1, n):  
-        element = my_list[i]  
+        key = my_list[i]  
         j = i-1
-        while j >= 0 and element < my_list[j]: 
+        while j >= 0 and key < my_list[j]: 
             my_list[j+1] = my_list[j] 
             j -= 1
-        my_list[j+1] = element
+        my_list[j+1] = key
