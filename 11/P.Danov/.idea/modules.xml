@@ -3,16 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01-10/01-10.iml" filepath="$PROJECT_DIR$/01-10/01-10.iml" />
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/08-10/08-10.iml" filepath="$PROJECT_DIR$/08-10/08-10.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BIO/BIO.iml" filepath="$PROJECT_DIR$/BIO/BIO.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BMI/BMI.iml" filepath="$PROJECT_DIR$/BMI/BMI.iml" />
-=======
       <module fileurl="file://$PROJECT_DIR$/05-11/05-11.iml" filepath="$PROJECT_DIR$/05-11/05-11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-10/08-10.iml" filepath="$PROJECT_DIR$/08-10/08-10.iml" />
       <module fileurl="file://$PROJECT_DIR$/22-10/22-10.iml" filepath="$PROJECT_DIR$/22-10/22-10.iml" />
       <module fileurl="file://$PROJECT_DIR$/BIO/BIO.iml" filepath="$PROJECT_DIR$/BIO/BIO.iml" />
->>>>>>> eaa29cd (Merged changes from remote main branch)
-      <module fileurl="file://$PROJECT_DIR$/.idea/P.Danov.iml" filepath="$PROJECT_DIR$/.idea/P.Danov.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BMI/BMI.iml" filepath="$PROJECT_DIR$/BMI/BMI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P.Danov.iml" filepath="$PROJECT_DIR$/P.Danov.iml" />
     </modules>
   </component>
 </project>
