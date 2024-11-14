@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/LoginRegister/LoginRegister.iml" filepath="$PROJECT_DIR$/LoginRegister/LoginRegister.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OnlineStore/OnlineStore.iml" filepath="$PROJECT_DIR$/OnlineStore/OnlineStore.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Tomov.iml" filepath="$PROJECT_DIR$/.idea/Tomov.iml" />
     </modules>
   </component>
