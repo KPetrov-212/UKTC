@@ -27,8 +27,8 @@ public class Multiprocessor {
         return t*clock/multicpu_clock;
     }
 
-    public static String toString(Multiprocessor processor){
-        return "Cpus:" + processor.getCpus() + " Cores:" + processor.getCores() + " Clock:" + processor.getClock();
+    public String toString(){
+        return "Cpus:" + getCpus() + " Cores:" + getCores() + " Clock:" + getClock();
     }
 
 
