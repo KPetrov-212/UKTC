@@ -10,12 +10,12 @@ public class Laptop extends Electronic {
         this.hdd = hdd;
     }
 
-    public static boolean isBetter(Laptop laptop1, Laptop laptop2) {
-        return laptop1.getRam() > laptop2.getRam() && laptop1.getHdd() > laptop2.getHdd();
+    public boolean isBetter(Laptop laptop) {
+        return hdd > laptop.hdd && ram > laptop.ram;
     }
 
-    public static String toString(Laptop laptop){
-        return "Watts:" + laptop.getWatts() + " Cpu:" + laptop.getCpu_model() + " Ram:" + laptop.getRam() + " Hdd:" + laptop.getHdd();
+    public String toString(){
+        return "Watts:" + getWatts() + " Cpu:" + getCpu_model() + " Ram:" + getRam() + " Hdd:" + getHdd();
     }
 
     //    gets and sets
