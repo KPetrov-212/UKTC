@@ -3,10 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01-10/01-10.iml" filepath="$PROJECT_DIR$/01-10/01-10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-12/03-12.iml" filepath="$PROJECT_DIR$/03-12/03-12.iml" />
       <module fileurl="file://$PROJECT_DIR$/05-11/05-11.iml" filepath="$PROJECT_DIR$/05-11/05-11.iml" />
       <module fileurl="file://$PROJECT_DIR$/08-10/08-10.iml" filepath="$PROJECT_DIR$/08-10/08-10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-12-TestOfficial/10-12-TestOfficial.iml" filepath="$PROJECT_DIR$/10-12-TestOfficial/10-12-TestOfficial.iml" />
       <module fileurl="file://$PROJECT_DIR$/19-11/19-11.iml" filepath="$PROJECT_DIR$/19-11/19-11.iml" />
       <module fileurl="file://$PROJECT_DIR$/22-10/22-10.iml" filepath="$PROJECT_DIR$/22-10/22-10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/26-11/26-11.iml" filepath="$PROJECT_DIR$/26-11/26-11.iml" />
       <module fileurl="file://$PROJECT_DIR$/BIO/BIO.iml" filepath="$PROJECT_DIR$/BIO/BIO.iml" />
       <module fileurl="file://$PROJECT_DIR$/BMI/BMI.iml" filepath="$PROJECT_DIR$/BMI/BMI.iml" />
       <module fileurl="file://$PROJECT_DIR$/P.Danov.iml" filepath="$PROJECT_DIR$/P.Danov.iml" />
