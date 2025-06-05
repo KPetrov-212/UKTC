@@ -21,6 +21,6 @@
 ⠀⠀⠀⠀⠉⠑⠒⠒⠐⠒⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
    
    ********************************************************
-  ** This is UKTC (3 course/10 grade) 2024 programming	  **
+  ** This is UKTC (10/11 grade) 2024/2025 programming	  **
  ** learning material + some competitions trough the year. **
 **************************************************************⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
