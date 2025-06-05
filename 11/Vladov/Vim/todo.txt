@@ -1,0 +1,7 @@
+- [!] Pay Bills
+- [x] Buy Groceries
+- Walk The Dog
+- Finish Report For Work
+- [x] Call Mom
+- Clean The Garage
+- [x] Read A Book
