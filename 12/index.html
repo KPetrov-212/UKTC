@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Awesome Bootstrap 5 One Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background: linear-gradient(135deg, #0d6efd 60%, #6c757d 100%);
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .features .icon {
+            font-size: 2.5rem;
+            color: #0d6efd;
+        }
+        .footer {
+            background: #212529;
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">AwesomePage</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Welcome to AwesomePage</h1>
+            <p class="lead mb-4">A modern, responsive one-page website built with Bootstrap 5.</p>
+            <a href="#features" class="btn btn-light btn-lg">Discover More</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features py-5" id="features">
+        <div class="container">
+            <h2 class="text-center mb-5">Features</h2>
+            <div class="row g-4">
+                <div class="col-md-4 text-center">
+                    <div class="icon mb-3"><i class="bi bi-lightning-charge-fill"></i></div>
+                    <h5>Fast & Responsive</h5>
+                    <p>Optimized for speed and mobile devices using Bootstrap 5.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="icon mb-3"><i class="bi bi-palette-fill"></i></div>
+                    <h5>Modern Design</h5>
+                    <p>Clean, attractive layout with customizable components.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="icon mb-3"><i class="bi bi-shield-lock-fill"></i></div>
+                    <h5>Secure</h5>
+                    <p>Built with best practices for security and reliability.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-5 bg-light" id="about">
+        <div class="container">
+            <h2 class="text-center mb-4">About Us</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <p class="text-center">AwesomePage is a demonstration of how easy it is to create beautiful, responsive websites with Bootstrap 5. Whether you're building a portfolio, business site, or landing page, Bootstrap provides all the tools you need.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-5" id="contact">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 AwesomePage. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and Icons -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</body>
+</html></div>
