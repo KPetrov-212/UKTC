@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="bg" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Продукти с ID</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body class="bg-light" data-bs-theme="light">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom sticky-top">
+    <div class="container">
+        <span class="navbar-brand mb-0 h1">
+            <i class="bi bi-box-seam"></i> Продукти API
+        </span>
+        <button class="btn btn-outline-secondary" id="themeToggle" title="Превключи на тъмна/светла тема">
+            <i class="bi bi-moon-stars"></i>
+        </button>
+    </div>
+</nav>
+
+<div class="container py-5">
+    <h1 class="text-center mb-4"><i class="bi bi-box-seam"></i> Продукти с ID</h1>
+
+    <div class="row g-4">
+        <!-- Input Section -->
+        <div class="col-lg-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0"><i class="bi bi-pencil-square"></i> Въведи продукт</h5>
+                </div>
+                <div class="card-body">
+                    <input type="text" id="title" class="form-control mb-3" placeholder="Заглавие">
+                    <input type="number" id="price" class="form-control mb-3" placeholder="Цена" step="0.01">
+                    <textarea id="description" class="form-control mb-3" placeholder="Описание" rows="4"></textarea>
+                    <input type="number" id="putId" class="form-control" placeholder="ID за обновяване (PUT)">
+                </div>
+            </div>
+        </div>
+
+        <!-- Buttons Section -->
+        <div class="col-lg-8">
+            <div class="card shadow-sm h-100">
+                <div class="card-header bg-dark text-white">
+                    <h5 class="mb-0"><i class="bi bi-lightning-fill"></i> Операции</h5>
+                </div>
+                <div class="card-body d-flex flex-column gap-3">
+                    <button id="get" class="btn btn-info btn-lg w-100">
+                        <i class="bi bi-download"></i> GET - Вземи продукти
+                    </button>
+                    <button id="post" class="btn btn-success btn-lg w-100">
+                        <i class="bi bi-plus-circle"></i> POST - Добави продукт
+                    </button>
+                    <button id="put" class="btn btn-warning btn-lg w-100">
+                        <i class="bi bi-pencil"></i> PUT - Обнови продукт
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Message Section -->
+    <div id="message" class="alert alert-info alert-dismissible fade show mt-4 d-none" role="alert">
+        <div id="messageContent"></div>
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+
+    <!-- Products Grid -->
+    <div id="products" class="row g-4 mt-2"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
