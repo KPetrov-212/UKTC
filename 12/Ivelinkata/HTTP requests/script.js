@@ -82,7 +82,7 @@ function validateInput() {
 function getProducts() {
     fetch(apiUrl)
         .then(res => res.json())
-        .then(data => showProducts(data.slice(0, 10)))
+        .then(data => showProducts(data))
         .catch(err => showMessage("Грешка: " + err, "danger"));
 }
 
@@ -147,7 +147,7 @@ function fetchOrUpdateProduct() {
     const id = document.getElementById("putId").value;
 
     if (!id) {
-        showMessage("❌ Въведете ID за обновяване!", "warning");
+        showMessage("❌ Въведете ID за обновяване!", "warning");    
         return;
     }
 
