@@ -1,0 +1,14 @@
+{% extends 'blog/base.html' %}
+
+{% block title %}{{ post.title }}{% endblock %}
+
+{% block content %}
+<article class="card">
+    <div class="card-body">
+        <h2 class="card-title">{{ post.title }}</h2>
+        <p class="card-text text-muted">By {{ post.author }}</p>
+        <p class="card-text">{{ post.body }}</p>
+    </div>
+</article>
+<a href="{% url 'post_list' %}" class="btn btn-primary mt-3">Back to home</a>
+{% endblock %}

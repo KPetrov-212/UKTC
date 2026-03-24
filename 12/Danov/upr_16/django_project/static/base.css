@@ -1,0 +1,25 @@
+/* Custom styles for the blog */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header h1 a {
+    text-decoration: none;
+}
+
+article {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+article h3 a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+article h3 a:hover {
+    text-decoration: underline;
+}
