@@ -1,0 +1,8 @@
+# Set JDK 25 as the default for this session
+$env:JAVA_HOME = 'C:\Users\krisi\.jdk\jdk-25'
+
+# Navigate to your project
+cd 'c:\Users\krisi\Desktop\UKTC\12\Stoyanov'
+
+# Run all tests
+& 'C:\Users\krisi\.maven\maven-3.9.14\bin\mvn.cmd' clean test
